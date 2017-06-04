@@ -1,0 +1,14 @@
+@CHARSET "UTF-8";
+
+	*{
+		margin: 0px;
+		padding: 0px;	
+	}
+	
+footer{
+		padding: 10px;
+		position: absolute;
+		bottom: 0; 
+		background-color: black;
+		text-align: center;
+	}

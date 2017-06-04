@@ -5,6 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="Mycss/mystyle.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" media="screen">
@@ -13,7 +14,7 @@
 </head>
 <body>
 <header id ="portfolio">
-    <a href="#"><img src="img/4.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <a href="#"><img src="img/4.jpg" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
     <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
     <div class="w3-dark-grey w3-center w3-padding-24">
     <h1><b>Cajamarca</b> Milenaria
@@ -76,7 +77,7 @@
 </nav> 
 
 <div>
-  <div class="col-md-2">
+  <div class="col-md-3">
            <nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:250px;" id="NavIzq"><br>
             <div class="w3-container">
               <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
@@ -94,7 +95,7 @@
           </nav>
     
   </div>
-  <div class="col-md-8 col-sm-9" style="padding-left: 40px;">
+  <div class="col-md-7 col-sm-9" style="padding-left: 40px;">
         <h1>¡Hola mundo!</h1>
     
   </div>
@@ -103,22 +104,19 @@
       <h1>hola</h1>
     </aside>
   </div>
-
 </div>
 
-<footer>
-  <div style="padding: 10px 1px; background-color: black;" > Ingeniería Web - 2017</a>
+<footer class="col-md-12 col-sm-12 col-xs-12 col-lg-12" style="position: absolute;">
+    <div  style="padding: 10px 0px; color: white;" > Ingeniería Web - 2017
     <p>Universidad Nacional de Cajamarca</p>
     </div>
-</footer>
+  </footer>
 
- 
     <!-- Librería jQuery requerida por los plugins de JavaScript -->
     <script src="http://code.jquery.com/jquery.js"></script>
- 
-    <!-- Todos los plugins JavaScript de Bootstrap (también puedes
-         incluir archivos JavaScript individuales de los únicos
-         plugins que utilices) -->
+
+    <script src="https://code.jquery.com/jquery-laters.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.js"></script>
     <script>
 
 function w3_open() {
@@ -131,7 +129,5 @@ function w3_close() {
     document.getElementById("myOverlay").style.display = "none";
 }
 </script>     
-    <script src="https://code.jquery.com/jquery-laters.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.js"></script>
   </body>
 </html>
